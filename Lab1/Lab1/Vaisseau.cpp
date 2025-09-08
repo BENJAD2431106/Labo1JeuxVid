@@ -1,6 +1,6 @@
 #include "Vaisseau.h"
 
-Vaisseau::Vaisseau(int valMarchande, int attaque, int defense, int vie, int capacite, std::string nom, int niveau, int exp, Faction faction)
+Vaisseau::Vaisseau(int valMarchande, int attaque, int defense, int vie, int capacite, std::string nom, int niveau, int exp, Faction* faction)
 {
 	this->valMarchande = valMarchande;
 	this->attaque = attaque;
@@ -14,13 +14,15 @@ Vaisseau::Vaisseau(int valMarchande, int attaque, int defense, int vie, int capa
 
 
 }
-Vaisseau::Vaisseau(Faction f)
+Vaisseau::Vaisseau(Faction* f)
 {
 	this->faction = f;
 	//random pour plus tard.
 }
 Vaisseau::~Vaisseau()
 {
+	delete faction;
+	faction = nullptr;
 
 }
 int Vaisseau::getAtt()

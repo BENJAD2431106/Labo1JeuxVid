@@ -126,7 +126,9 @@
     <ClCompile Include="Faction.cpp" />
     <ClCompile Include="FactionBleue.cpp" />
     <ClCompile Include="FactionRouge.cpp" />
+    <ClCompile Include="Factory.cpp" />
     <ClCompile Include="Lab1.cpp" />
+    <ClCompile Include="Station.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
     <ClCompile Include="VaisseauDecouverte.cpp" />
     <ClCompile Include="VaisseauGuerre.cpp" />
@@ -136,6 +138,8 @@
     <ClInclude Include="Faction.h" />
     <ClInclude Include="FactionBleue.h" />
     <ClInclude Include="FactionRouge.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="Station.h" />
     <ClInclude Include="Vaisseau.h" />
     <ClInclude Include="VaisseauDecouverte.h" />
     <ClInclude Include="VaisseauGuerre.h" />

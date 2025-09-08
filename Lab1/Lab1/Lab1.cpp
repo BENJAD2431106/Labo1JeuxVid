@@ -1,7 +1,9 @@
 // Lab1.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
 #include <iostream>
+#include <ctime>
 #include <string>
+#include "Factory.h"
 #include "Faction.h"
 #include "FactionBleue.h"
 #include "FactionRouge.h"
@@ -9,15 +11,27 @@
 #include "VaisseauGuerre.h"
 #include "VaisseauDecouverte.h"
 #include "Vaisseautransport.h"
+#include "Station.h"
 using std::cout;
 using std::endl;
 using std::cin;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    FactionBleue factionbleue(4, 9, 100, 10, "Joe");
-    FactionRouge factionrouge(4, 9, 100, 10, "Joe");
+    srand(time(NULL));
+    Factory factory;
+    Vaisseau* vaisseau = factory.getRandomVaisseau();
+
+    std::cout << " Voici mon vaisseau : " << vaisseau->to_string()<< endl;
+    cout << "**********************************************************" << endl;
+
+    Station station;
+    std::cout << " Voici ma station : " << station.to_string() << endl;
+
+
+    /*std::cout << "Hello World!\n";
+    FactionBleue* factionbleue(4, 9, 100, 10, "Joe");
+    FactionRouge* factionrouge(4, 9, 100, 10, "Joe");
     VaisseauDecouverte vaisseau1(factionbleue);
     VaisseauDecouverte vaisseaudecouverte(10, 10, 10, 10, 10, "TestDecouverte", 10,10, factionrouge);
     VaisseauGuerre vaisseau2(factionrouge);
@@ -31,7 +45,9 @@ int main()
 
     cout << vaisseau1.to_string() << endl;
     cout << vaisseau2.to_string() << endl;
-    cout << vaisseau3.to_string() << endl;
+    cout << vaisseau3.to_string() << endl;*/
+
+
 
 
 }

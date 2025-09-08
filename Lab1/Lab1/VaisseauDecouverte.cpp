@@ -2,13 +2,12 @@
 #include <iostream>
 #include <ctime>
 
-VaisseauDecouverte::VaisseauDecouverte(int valMarchande, int attaque, int defense, int vie, int capacite, std::string nom, int niveau, int exp, Faction faction) : Vaisseau(valMarchande,  attaque, defense,  vie, capacite,  nom, niveau,exp, faction)
+VaisseauDecouverte::VaisseauDecouverte(int valMarchande, int attaque, int defense, int vie, int capacite, std::string nom, int niveau, int exp, Faction* faction) : Vaisseau(valMarchande,  attaque, defense,  vie, capacite,  nom, niveau,exp, faction)
 {
 	
 }
-VaisseauDecouverte::VaisseauDecouverte(Faction faction) :Vaisseau(faction)
+VaisseauDecouverte::VaisseauDecouverte(Faction* faction) :Vaisseau(faction)
 {
-	srand(time(NULL));
 	this->valMarchande = (rand() % (10 - 0 + 1)) + 0;
 	this->attaque = 3;
 	this->capacite = 10;
@@ -20,7 +19,7 @@ VaisseauDecouverte::VaisseauDecouverte(Faction faction) :Vaisseau(faction)
 }
 VaisseauDecouverte::~VaisseauDecouverte()
 {
-
+	
 }
 std::string VaisseauDecouverte::to_string()
 {

@@ -7,16 +7,17 @@ class Vaisseau
 protected :
 		int valMarchande;
 		std::string nom;
-		Faction faction;
 		int attaque;
 		int defense;
 		int vie;
 		int capacite;
 		int niveau;
 		int exp;
+private :
+	Faction* faction;
 public :
-	Vaisseau(int valMarchande, int attaque, int defense, int vie, int capacite, std::string nom, int niveau, int exp, Faction faction);
-	Vaisseau(Faction f);
+	Vaisseau(int valMarchande, int attaque, int defense, int vie, int capacite, std::string nom, int niveau, int exp, Faction* faction);
+	Vaisseau(Faction* faction);
 	~Vaisseau();
 	int getAtt();
 	int getDef();
