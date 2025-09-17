@@ -17,13 +17,21 @@ Vaisseau::Vaisseau(int valMarchande, int attaque, int defense, int vie, int capa
 Vaisseau::Vaisseau(Faction* f)
 {
 	this->faction = f;
-	//random pour plus tard.
 }
 Vaisseau::~Vaisseau()
 {
 	delete faction;
 	faction = nullptr;
 
+}
+void Vaisseau::EnvoyerEnExploration(int tour)
+{
+	toursRestant = tour;
+}
+void Vaisseau::MiseAJourTour()
+{
+	if (toursRestant > 0)
+		toursRestant--;
 }
 int Vaisseau::getAtt()
 {
@@ -37,7 +45,10 @@ int Vaisseau::getVie()
 {
 	return vie;
 }
-
+int Vaisseau::getTours()
+{
+	return toursRestant;
+}
 std::string Vaisseau::to_string()
 {
 	std::string infos;

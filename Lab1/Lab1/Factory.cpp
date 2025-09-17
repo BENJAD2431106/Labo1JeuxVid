@@ -9,6 +9,7 @@
 #include<ctime>
 #include<iostream>
 #include<random>
+using std::endl;
 int Factory:: genererNb(int i, int y)
 {
 	int nbre = std::rand() % y + i;;
@@ -31,6 +32,39 @@ Vaisseau* Factory::getRandomVaisseau()
 		vaisseau = new VaisseauTransport(faction);
 
 	return vaisseau;
+}
+
+void Factory::EcrireAffichage()
+{
+	std::cout << R"(
+       _________
+      (=========)
+      |=========|
+      |====_====|
+      |== / \ ==|
+      |= / _ \ =|
+   _  |=| ( ) |=|
+  /=\ |=|     |=| /=\
+  |=| |=| USA |=| |=|
+  |=| |=|  _  |=| |=|
+  |=| |=| | | |=| |=|
+  |=| |=| | | |=| |=|
+  |=| |=| | | |=| |=|
+  |=| |/  | |  \| |=|
+  |=|/    | |    \|=|
+  |=/NASA |_| NASA\=|
+  |(_______________)|
+  |=| |_|__|__|_| |=|
+  |=|   ( ) ( )   |=|
+ /===\           /===\
+|||||||         |||||||
+-------         -------
+ (~~~)           (~~~)
+    )" << endl;
+
+	std::cout << "Bienvenue au jeu de Jad!" << endl;
+	std::cout << "Appuyez pour passer..." << endl;
+	getchar();
 }
 Faction* Factory::getRandomFaction()
 {

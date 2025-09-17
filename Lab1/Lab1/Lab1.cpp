@@ -12,22 +12,142 @@
 #include "VaisseauDecouverte.h"
 #include "Vaisseautransport.h"
 #include "Station.h"
+#include <vector>
+#include "conio.h"
 using std::cout;
 using std::endl;
 using std::cin;
-
-int main()
+using namespace std;
+void VoirInfosStation(Station* station)
 {
+    cout << "INFORMATION DE LA STATION : " << endl;
+    std::cout << station->to_string() << endl;
+}
+void AfficherInfosStation(Station* station)
+{
+    std::cout << station->AfficherVaisseaux() << endl;
+}
+void AfficherVaiseauxAVendre(Station* station)
+{
+    vector<Vaisseau*> monVecteur;
     srand(time(NULL));
     Factory factory;
     Vaisseau* vaisseau = factory.getRandomVaisseau();
+    monVecteur.push_back(vaisseau);
+    cout << vaisseau->to_string() << endl;
+    cout << "Souhaitez-vous l'acheter? (O/N)";
+    char rep = _getch();
+    if (rep == 'O' || rep == 'o')
+    {
+        station->ajouterVaisseau(vaisseau);
+    }
+    else if (rep == 'N' || rep == 'n')
+    {
+        cout << "vous n'achetezpas ce vaisseau" << endl;
+    }
+        
+}
+void EnvoyerEnExploration(Station* station)
+{
+    srand(time(NULL));
+    int nbre = std::rand() % station->getVaisseaudispo().size();
+    Vaisseau* v = station->getVaisseaudispo()[nbre];
+    if (v->getTours() == 0)
+    {
+        int nbre2 = std::rand() % 2 + 5;
+        int ressources = (std::rand() % 1 + 1000) * nbre2;
+        cout << "Vaisseau " + std::to_string(nbre + 1) + " va en exploration pour effectuer " + std::to_string(nbre2) + " Tours..." << endl;
+        cout << " Le nombre de ressources trouvees : " + std::to_string(ressources) << endl;
+        v->EnvoyerEnExploration(nbre2);
+        station->platinumDisponible += ressources;
+    }
+    else
+        cout << "Vaisseau non disponible!"<<endl;
+    
+}
+void InfosVaisseauDispos(Station* station)
+{
+    for (int i = 0; i < station->getVaisseaudispo().size(); i++)
+    {
+        int j = 0;
+        if (station->getVaisseaudispo()[i]->getTours() == 0)
+        {
+            cout << station->getVaisseaudispo()[i]->to_string() << endl;
+            j++;
+        }
+    }
+}
+    
+void AfficherMenu()
+{
+        cout << "\n=== MENU PRINCIPAL ===" << endl;
+        cout << "1. Afficher les informations de la station." << endl;
+        cout << "2. La liste des vaisseaux." << endl;
+        cout << "3. Acheter des vaisseaux." << endl;
+        cout << "4. Envoyer un vaisseau pour l'exploration." << endl;
+        cout << "5. Passer un tour." << endl;
+        cout << "6. Afficher Vaisseaux disponibles uniquement." << endl;
+}
+
+int main()
+{
+    Factory factory;
+    factory.EcrireAffichage();
+    bool boucle = true;
+    int choix = 0;
+    int tour=0;
+    Station station;
+    srand(time(NULL));
+    while (boucle)
+    {
+        cout << "TOUR => " + std::to_string(tour);
+        AfficherMenu();
+        choix = _getch();
+        switch (choix) {
+        case '1':
+            VoirInfosStation(&station);
+            break;
+
+        case '2':
+            AfficherInfosStation(&station);
+            break;
+
+        case '3':
+            AfficherVaiseauxAVendre(&station);
+            break;
+        case '4':
+            EnvoyerEnExploration(&station);
+            break;
+        case '5':
+            cout << " Vous passez au tour suivant." << endl;
+            break;
+        case '6':
+            cout << " Vaisseaux Disponibles :" << endl;
+            InfosVaisseauDispos(&station);
+            break;
+
+        default:
+            cout << "⚠️ Choix invalide. Essayez encore !" << endl;
+            break;
+        }
+        if (boucle) {
+            cout << "\nAppuyez sur une touche pour passer au tour suivant...";
+            tour++;
+            _getch();
+            system("cls");
+        }
+        for (int i = 0; i < station.getVaisseaudispo().size(); i++)
+        {
+            station.getVaisseaudispo()[i]->MiseAJourTour();
+        }
+    }
+        
+
+
+    /*Vaisseau* vaisseau = factory.getRandomVaisseau();
 
     std::cout << " Voici mon vaisseau : " << vaisseau->to_string()<< endl;
-    cout << "**********************************************************" << endl;
-
-    Station station;
-    std::cout << " Voici ma station : " << station.to_string() << endl;
-
+    cout << "**********************************************************" << endl;*/
 
     /*std::cout << "Hello World!\n";
     FactionBleue* factionbleue(4, 9, 100, 10, "Joe");
@@ -46,10 +166,6 @@ int main()
     cout << vaisseau1.to_string() << endl;
     cout << vaisseau2.to_string() << endl;
     cout << vaisseau3.to_string() << endl;*/
-
-
-
-
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

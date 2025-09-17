@@ -36,12 +36,20 @@ Station::~Station()
 		vecVaisseau[i] = nullptr;
 	}
 }
-std::string Station::to_string()
+std::string Station::AfficherVaisseaux()
 {
 	std::string infos;
 	for (int i = 0; i < vecVaisseau.size(); i++)
 	{
 		infos += vecVaisseau[i]->to_string();
 	}
+	return infos;
+}
+std::string Station::to_string()
+{
+	std::string infos;
+	infos += " Platinume disponible : " + std::to_string(platinumDisponible) + "\nVie Restante : " + std::to_string(vieStation)+"\n";
+	infos += "Nombre de vaisseau Dispo : " + std::to_string(vecVaisseau.size());
+
 	return infos;
 }

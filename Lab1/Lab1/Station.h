@@ -6,13 +6,14 @@ using std::vector;
 
 class Station
 {
-private:
+public:
 	int platinumDisponible;
 	int vieStation;
 	vector<Vaisseau*> vecVaisseau;
 public :
 	Station();
 	~Station();
+	std::string AfficherVaisseaux();
 	vector<Vaisseau*> getVaisseaudispo();
 	void init();
 	void ajouterVaisseau(Vaisseau* vaisseau);

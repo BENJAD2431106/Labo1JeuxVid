@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauTransport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\VaisseauTransport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Station.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Station.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factionrouge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Factionrouge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Vaisseau.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Vaisseau.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Vaisseau.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Vaisseau.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauDecouverte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\VaisseauDecouverte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Station.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Station.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Factory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Factory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauDecouverte.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\VaisseauDecouverte.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factionrouge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Factionrouge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Faction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Faction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauGuerre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\VaisseauGuerre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Faction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\Faction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauGuerre.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\VaisseauGuerre.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauTransport.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\VaisseauTransport.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionBleue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\FactionBleue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionBleue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{004D76EF-AFE6-4B4D-92F5-9254995242CA}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\FactionBleue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab1.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Lab1.cpp",
+              "RelativeDocumentMoniker": "Lab1\\Lab1.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Lab1.cpp",
+              "RelativeToolTip": "Lab1\\Lab1.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T12:54:15.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VaisseauDecouverte.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauDecouverte.h",
+              "RelativeDocumentMoniker": "Lab1\\VaisseauDecouverte.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauDecouverte.h",
+              "RelativeToolTip": "Lab1\\VaisseauDecouverte.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T13:37:35.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vaisseau.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Vaisseau.h",
+              "RelativeDocumentMoniker": "Lab1\\Vaisseau.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Vaisseau.h",
+              "RelativeToolTip": "Lab1\\Vaisseau.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T12:55:20.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FactionRouge.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionRouge.h",
+              "RelativeDocumentMoniker": "Lab1\\FactionRouge.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionRouge.h",
+              "RelativeToolTip": "Lab1\\FactionRouge.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T14:36:39.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Factory.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factory.cpp",
+              "RelativeDocumentMoniker": "Lab1\\Factory.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factory.cpp",
+              "RelativeToolTip": "Lab1\\Factory.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T13:35:25.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Station.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Station.cpp",
+              "RelativeDocumentMoniker": "Lab1\\Station.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Station.cpp",
+              "RelativeToolTip": "Lab1\\Station.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T14:25:37.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Faction.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Faction.cpp",
+              "RelativeDocumentMoniker": "Lab1\\Faction.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Faction.cpp",
+              "RelativeToolTip": "Lab1\\Faction.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T14:29:41.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Station.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Station.h",
+              "RelativeDocumentMoniker": "Lab1\\Station.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Station.h",
+              "RelativeToolTip": "Lab1\\Station.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T14:12:31.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FactionRouge.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionRouge.cpp",
+              "RelativeDocumentMoniker": "Lab1\\FactionRouge.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionRouge.cpp",
+              "RelativeToolTip": "Lab1\\FactionRouge.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T14:41:04.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VaisseauTransport.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauTransport.cpp",
+              "RelativeDocumentMoniker": "Lab1\\VaisseauTransport.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauTransport.cpp",
+              "RelativeToolTip": "Lab1\\VaisseauTransport.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T14:25:14.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VaisseauDecouverte.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauDecouverte.cpp",
+              "RelativeDocumentMoniker": "Lab1\\VaisseauDecouverte.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauDecouverte.cpp",
+              "RelativeToolTip": "Lab1\\VaisseauDecouverte.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T13:44:44.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vaisseau.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Vaisseau.cpp",
+              "RelativeDocumentMoniker": "Lab1\\Vaisseau.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Vaisseau.cpp",
+              "RelativeToolTip": "Lab1\\Vaisseau.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T12:58:23.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Factory.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factory.h",
+              "RelativeDocumentMoniker": "Lab1\\Factory.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Factory.h",
+              "RelativeToolTip": "Lab1\\Factory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T13:31:42.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VaisseauGuerre.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauGuerre.h",
+              "RelativeDocumentMoniker": "Lab1\\VaisseauGuerre.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauGuerre.h",
+              "RelativeToolTip": "Lab1\\VaisseauGuerre.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T13:36:39.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Faction.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Faction.h",
+              "RelativeDocumentMoniker": "Lab1\\Faction.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\Faction.h",
+              "RelativeToolTip": "Lab1\\Faction.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T14:26:46.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VaisseauTransport.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauTransport.h",
+              "RelativeDocumentMoniker": "Lab1\\VaisseauTransport.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauTransport.h",
+              "RelativeToolTip": "Lab1\\VaisseauTransport.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T13:37:01.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VaisseauGuerre.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauGuerre.cpp",
+              "RelativeDocumentMoniker": "Lab1\\VaisseauGuerre.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\VaisseauGuerre.cpp",
+              "RelativeToolTip": "Lab1\\VaisseauGuerre.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T14:44:33.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FactionBleue.cpp",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionBleue.cpp",
+              "RelativeDocumentMoniker": "Lab1\\FactionBleue.cpp",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionBleue.cpp",
+              "RelativeToolTip": "Lab1\\FactionBleue.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T14:39:02.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FactionBleue.h",
+              "DocumentMoniker": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionBleue.h",
+              "RelativeDocumentMoniker": "Lab1\\FactionBleue.h",
+              "ToolTip": "C:\\Users\\2431106\\Documents\\Code\\Dev_Jeux\\Labo1JeuxVid\\Lab1\\Lab1\\FactionBleue.h",
+              "RelativeToolTip": "Lab1\\FactionBleue.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T14:36:25.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
